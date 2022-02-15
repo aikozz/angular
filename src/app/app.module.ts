@@ -13,6 +13,8 @@ import { IndexComponent } from './compenants/index/index.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing-module";
 import { SecondComponent } from './components/second/second.component';
+import { CardComponent } from './compenants/card/card.component';
+import { SingleCardComponent } from './compenants/single-card/single-card.component';
 
 
 
@@ -27,7 +29,9 @@ import { SecondComponent } from './components/second/second.component';
     HeaderComponentComponent,
     TestDataComponent,
     IndexComponent,
-    SecondComponent
+    SecondComponent,
+    CardComponent,
+    SingleCardComponent
   ],
   imports: [
     BrowserModule,
